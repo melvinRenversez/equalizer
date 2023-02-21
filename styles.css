@@ -57,6 +57,7 @@ header h1{
 }
 
 .artiste{
+       font-size: 15px;
        top: 1px;
        border-bottom: 3px solid white ;
 }
