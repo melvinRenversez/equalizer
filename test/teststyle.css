@@ -1,6 +1,6 @@
 @font-face {
   font-family: "titre";
-  src: url(assets/Tourney-Italic-VariableFont_wdth\,wght.ttf);
+  src: url(../assets/Tourney-Italic-VariableFont_wdth\,wght.ttf);
 }
 
 *{
@@ -36,11 +36,21 @@ header{
   font-size: 50px;
   font-family: titre;
 }
+
 header h1{
-  background: #0FF7FF;
-  background: linear-gradient(to right, #0FF7FF 25%,#001AFF 50%, #DE0AFF 80%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color : red;
+  animation-name: title;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes title {
+  0% { color: #0FF7FF }
+  33% { color: #001AFF }
+  66% { color: #DE0AFF }
+  100% { color: #0FF7FF }
+  
+  
 }
 
 .box {
