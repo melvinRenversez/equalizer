@@ -36,12 +36,6 @@ header{
        font-size: 50px;
        font-family: titre;
 }
-header h1{
-       background: #0FF7FF;
-       background: linear-gradient(to right, #0FF7FF 25%,#001AFF 50%, #DE0AFF 80%);
-       -webkit-background-clip: text;
-       -webkit-text-fill-color: transparent;
-}
 
 .box {
        display: inline-block;
@@ -83,39 +77,339 @@ footer{
        border-top-right-radius: 25px;
        display: flex;
        justify-content: center;
-     }
+}
      
-     .contenair-resaux{
+.contenair-resaux{
        display: flex;
        justify-content: center;
        padding-top: 10px;
        width: 50%;
        position: relative;
        text-align: center;
-     }
+}
      
-     .instagram{
+.instagram{
        width: 100px;
        margin: 10px;
-     }
+}
      
-     .facebook{
+.facebook{
        width: 100px;
        margin: 10px;
-     }
+}
      
-     h2{
+h2{
        color: #0FF7FF;
      
        margin-bottom: 10px;
-     }
+}
      
-     .insta{
+.insta{
        margin: 0;
        padding: 0;
        height: 30px;
-     }
+}
      
-     .insta img{  
+.insta img{  
        width: 20px;
-     }
+}
+
+.titre{
+       animation-name: title;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+}
+
+.titre1{
+       animation-name: title1;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+}
+
+.titre2{
+       animation-name: title2;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+}
+
+.titre3{
+       animation-name: title3;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+}
+
+.titre4{
+       animation-name: title4;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+}
+
+.titre5{
+       animation-name: title5;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+}
+
+.titre6{
+       animation-name: title6;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+}
+
+.titre7{
+       animation-name: title7;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+}
+
+.titre8{
+       animation-name: title8;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+}
+
+h1{
+       position: absolute;
+       animation-duration: 2s;
+}
+
+.a{
+       animation-name: chut1;
+       left:  32%;
+}
+
+.b{
+       animation-name: chut2;
+       left: 35.5%;
+}
+.c{
+       animation-name: chut3;
+       left: 39.7%;
+}
+
+.d{
+       animation-name: chut4;
+       left: 43.9%;
+}
+
+.e{
+       animation-name: chut5;
+       left: 48%;
+}
+
+.f{
+       animation-name: chut6;
+       left: 51.5%;
+}
+.g{
+       animation-name: chut7;
+       left: 54.7%;
+}
+.h{
+       animation-name: chut8;
+       left: 58.8%;
+}
+.i{
+       animation-name: chut9;
+       left: 62.5%;
+}
+
+
+@keyframes chut1 {
+       from { 
+              top: -100px;
+       }
+       55%{
+              top: 70px;
+       }
+       to{
+              top: 10px;
+       }       
+}
+@keyframes chut2 {
+       5% { 
+              top: -100px;
+       }
+       60%{
+              top: 70px;
+       }
+       to{
+              top: 10px;
+       }       
+}
+@keyframes chut3 {
+       10% { 
+              top: -100px;
+       }
+       65%{
+              top: 70px;
+       }
+       to{
+              top: 10px;
+       }       
+}
+@keyframes chut4 {
+       15% { 
+              top: -100px;
+       }
+       70%{
+              top: 70px;
+       }
+       to{
+              top: 10px;
+       }       
+}
+@keyframes chut5 {
+       20% { 
+              top: -100px;
+       }
+       75%{
+              top: 70px;
+       }
+       to{
+              top: 10px;
+       }      
+}
+@keyframes chut6 {
+       25% { 
+              top: -100px;
+       }
+       80%{
+              top: 70px;
+       }
+       to{
+              top: 10px;
+       }       
+}
+@keyframes chut7 {
+       30% { 
+              top: -100px;
+       }
+       85%{
+              top: 70px;
+       }
+       to{
+              top: 10px;
+       }       
+}
+@keyframes chut8 {
+       35% { 
+              top: -100px;
+       }
+       90%{
+              top: 70px;
+       }
+       to{
+              top: 10px;
+       }       
+}
+@keyframes chut9 {
+       40% { 
+              top: -100px;
+       }
+       93%{
+              top: 70px;
+       }
+       to{
+              top: 10px;
+       }       
+}
+
+@keyframes title {
+       0% 
+       { color: #DE0AFF }
+       33% 
+       { color: #0FF7FF }
+       66% 
+       { color: #001AFF }
+       100% 
+       { color: #DE0AFF }       
+}
+@keyframes title1 {
+       0% 
+       { color: #001AFF }
+       33% 
+       { color: #DE0AFF }
+       66% 
+       { color: #0FF7FF }
+       100% 
+       { color: #001AFF }       
+}
+
+@keyframes title2 {
+       0% 
+       { color: #0FF7FF }
+       33% 
+       { color: #001AFF }
+       66% 
+       { color: #DE0AFF }
+       100% 
+       { color: #0FF7FF }       
+}
+
+@keyframes title3 {
+       0% 
+       { color: #DE0AFF }
+       33% 
+       { color: #0FF7FF }
+       66% 
+       { color: #001AFF }
+       100% 
+       { color: #DE0AFF }       
+}
+
+@keyframes title4 {
+       0% 
+       { color: #001AFF }
+       33% 
+       { color: #DE0AFF }
+       66% 
+       { color: #0FF7FF }
+       100% 
+       { color: #001AFF }       
+}
+
+@keyframes title5 {
+       0% 
+       { color: #0FF7FF }
+       33% 
+       { color: #001AFF }
+       66% 
+       { color: #DE0AFF }
+       100% 
+       { color: #0FF7FF }       
+}
+
+@keyframes title6 {
+       0% 
+       { color: #DE0AFF }
+       33% 
+       { color: #0FF7FF }
+       66% 
+       { color: #001AFF }
+       100% 
+       { color: #DE0AFF }       
+}
+
+@keyframes title7 {
+       0% 
+       { color: #001AFF }
+       33% 
+       { color: #DE0AFF }
+       66% 
+       { color: #0FF7FF }
+       100% 
+       { color: #001AFF }       
+}
+
+
+@keyframes title8 {
+       0% 
+       { color: #0FF7FF }
+       33% 
+       { color: #001AFF }
+       66% 
+       { color: #DE0AFF }
+       100% 
+       { color: #0FF7FF }       
+}
