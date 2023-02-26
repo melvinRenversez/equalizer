@@ -1,6 +1,6 @@
 @font-face {
        font-family: "titre";
-       src: url(assets/Tourney-Italic-VariableFont_wdth\,wght.ttf);
+       src: url(../assets/Tourney-Italic-VariableFont_wdth\,wght.ttf);
 }
 
 *{
@@ -198,19 +198,19 @@ h1{
 }
 
 .f{
-       animation-name: chut6;
+       animation-name: chut4;
        left: 51.5%;
 }
 .g{
-       animation-name: chut7;
+       animation-name: chut3;
        left: 54.7%;
 }
 .h{
-       animation-name: chut8;
+       animation-name: chut2;
        left: 58.8%;
 }
 .i{
-       animation-name: chut9;
+       animation-name: chut1;
        left: 62.5%;
 }
 
